@@ -1,5 +1,34 @@
 # 【论文笔记】基于小波包失真与卷积神经网络的机械系统极度失衡故障诊断
 
+> **Mechanical Fault Diagnosis via WPD-CNN**
+>
+> **Paper Title:** *Highly imbalanced fault diagnosis of mechanical systems based on wavelet packet distortion and convolutional neural networks*
+>
+> **Journal:** *Advanced Engineering Informatics*, Vol. 51, 2022, 101535
+>
+> **DOI:** [10.1016/j.aei.2022.101535](https://doi.org/10.1016/j.aei.2022.101535)
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016/j.aei.2022.101535-blue)](https://doi.org/10.1016/j.aei.2022.101535)
+[![Status](https://img.shields.io/badge/Status-Published-brightgreen)](#)
+[![Topic](https://img.shields.io/badge/Topic-Imbalanced%20Learning-orange)](#)
+
+## 目录
+
+* [1. 研究背景](#1-研究背景)
+* [2. 技术原理：小波包失真（Wavelet Packet Distortion）](#2-技术原理小波包失真wavelet-packet-distortion)
+    * [2.1 信号分解与变换](#21-信号分解与变换)
+    * [2.2 非线性失真处理](#22-非线性失真处理)
+    * [2.3 信号重构](#23-信号重构)
+* [3. 分类模型架构：ConvNet](#3-分类模型架构convnet)
+* [4. 实验验证](#4-实验验证)
+    * [4.1 实验设置](#41-实验设置)
+    * [4.2 性能对比](#42-性能对比)
+* [5. 结论](#5-结论)
+* [文献来源](#文献来源)
+
+---
+
+
 ### 1. 研究背景
 
 在机械系统监控领域，自动故障诊断技术对于保障工业安全具有重要意义。然而，实际工程场景中面临的核心挑战是**数据类别失衡（Class Imbalance）**：由于机械设备长时间处于正常运行状态，获取的健康样本充足，而真实的故障样本极度稀缺。
