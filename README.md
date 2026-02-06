@@ -37,7 +37,7 @@
 
 ### 2. 技术原理：小波包失真（Wavelet Packet Distortion）
 
-论文提出了一种基于**小波包失真（WPD）**的数据增强策略，通过在时频域对原始信号进行物理意义明确的变换，生成具有多样性的新样本。
+论文提出了一种基于小波包失真（WPD）的数据增强策略，通过在时频域对原始信号进行物理意义明确的变换，生成具有多样性的新样本。
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9c1c7353-00f0-4f8d-8ea9-bdf849c986c1" width=70%/>
